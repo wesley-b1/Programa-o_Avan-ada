@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DCA1202: Código-Fonte de projeto3Unidade/mainwindow.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="ibagem1.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">DCA1202
+   &#160;<span id="projectnumber">20.09.2019</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6a8d91ed30cbb7a5de1b01198b19254a.html">projeto3Unidade</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">mainwindow.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="mainwindow_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MAINWINDOW_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define MAINWINDOW_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QMainWindow&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="namespace_ui.html">    6</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span><a class="code" href="class_main_window.html">MainWindow</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_main_window.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_main_window.html">MainWindow</a> : <span class="keyword">public</span> QMainWindow</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_main_window.html#a996c5a2b6f77944776856f08ec30858d">MainWindow</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#a59694f7026512f5037d820ef8f950e07">on_horizontalSliderMatriz_valueChanged</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#a4aaece4a1221d7b50b566247377c224b">on_pushButtonMatriz_clicked</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#aec8dd213a5cc6431b09e0a0cd1ed0b3b">on_pushButtonCor_clicked</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#af0a22beaff62076aee5318c8f7d02227">on_pushButtonPutBox_clicked</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#affe842d33f32e0433f150f1a5acef774">on_pushButtonCutBox_clicked</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#a54ef7ea70ad9e16c72239e0e4c9d1fe6">on_pushButtonPutSphere_clicked</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#aa01130f1caebf441341fc684751edde3">on_pushButtonCutSphere_clicked</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#aca7fcff82e6020515e2569e9c4d8bbaa">on_pushButtonPutEllipsoid_clicked</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#a3e8a11f9f62cf1daa11e5e129c45c7b3">on_pushButtonCutEllipsoid_clicked</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#aeef3249b2924907199d92e48b8226cac">on_radioButtonSphere_clicked</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#a3f9017cf9e44704498be8bc6d7e832a4">on_radioButtonBox_clicked</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#a86f14c15384310939d5287bf773655ac">on_radioButtonPut_clicked</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#a1ee91d2823f846491a440494ce9bf5c6">on_radioButtonEllip_clicked</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_main_window.html#a07a5c302a98e047122bfea348d1fe4b4">on_pushButtonSalvar_clicked</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">int</span> matrizX, matrizY, matrizZ;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    Ui::MainWindow *ui;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif // MAINWINDOW_H</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclass_main_window_html_aeef3249b2924907199d92e48b8226cac"><div class="ttname"><a href="class_main_window.html#aeef3249b2924907199d92e48b8226cac">MainWindow::on_radioButtonSphere_clicked</a></div><div class="ttdeci">void on_radioButtonSphere_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:140</div></div>
+<div class="ttc" id="aclass_main_window_html_a07a5c302a98e047122bfea348d1fe4b4"><div class="ttname"><a href="class_main_window.html#a07a5c302a98e047122bfea348d1fe4b4">MainWindow::on_pushButtonSalvar_clicked</a></div><div class="ttdeci">void on_pushButtonSalvar_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:149</div></div>
+<div class="ttc" id="aclass_main_window_html_a86f14c15384310939d5287bf773655ac"><div class="ttname"><a href="class_main_window.html#a86f14c15384310939d5287bf773655ac">MainWindow::on_radioButtonPut_clicked</a></div><div class="ttdeci">void on_radioButtonPut_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:130</div></div>
+<div class="ttc" id="aclass_main_window_html_aec8dd213a5cc6431b09e0a0cd1ed0b3b"><div class="ttname"><a href="class_main_window.html#aec8dd213a5cc6431b09e0a0cd1ed0b3b">MainWindow::on_pushButtonCor_clicked</a></div><div class="ttdeci">void on_pushButtonCor_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:56</div></div>
+<div class="ttc" id="aclass_main_window_html_a54ef7ea70ad9e16c72239e0e4c9d1fe6"><div class="ttname"><a href="class_main_window.html#a54ef7ea70ad9e16c72239e0e4c9d1fe6">MainWindow::on_pushButtonPutSphere_clicked</a></div><div class="ttdeci">void on_pushButtonPutSphere_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:90</div></div>
+<div class="ttc" id="aclass_main_window_html_aca7fcff82e6020515e2569e9c4d8bbaa"><div class="ttname"><a href="class_main_window.html#aca7fcff82e6020515e2569e9c4d8bbaa">MainWindow::on_pushButtonPutEllipsoid_clicked</a></div><div class="ttdeci">void on_pushButtonPutEllipsoid_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:108</div></div>
+<div class="ttc" id="aclass_main_window_html_affe842d33f32e0433f150f1a5acef774"><div class="ttname"><a href="class_main_window.html#affe842d33f32e0433f150f1a5acef774">MainWindow::on_pushButtonCutBox_clicked</a></div><div class="ttdeci">void on_pushButtonCutBox_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:79</div></div>
+<div class="ttc" id="aclass_main_window_html_a59694f7026512f5037d820ef8f950e07"><div class="ttname"><a href="class_main_window.html#a59694f7026512f5037d820ef8f950e07">MainWindow::on_horizontalSliderMatriz_valueChanged</a></div><div class="ttdeci">void on_horizontalSliderMatriz_valueChanged()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:40</div></div>
+<div class="ttc" id="aclass_main_window_html_a1ee91d2823f846491a440494ce9bf5c6"><div class="ttname"><a href="class_main_window.html#a1ee91d2823f846491a440494ce9bf5c6">MainWindow::on_radioButtonEllip_clicked</a></div><div class="ttdeci">void on_radioButtonEllip_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:144</div></div>
+<div class="ttc" id="anamespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> mainwindow.h:6</div></div>
+<div class="ttc" id="aclass_main_window_html_a3f9017cf9e44704498be8bc6d7e832a4"><div class="ttname"><a href="class_main_window.html#a3f9017cf9e44704498be8bc6d7e832a4">MainWindow::on_radioButtonBox_clicked</a></div><div class="ttdeci">void on_radioButtonBox_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:135</div></div>
+<div class="ttc" id="aclass_main_window_html_a4aaece4a1221d7b50b566247377c224b"><div class="ttname"><a href="class_main_window.html#a4aaece4a1221d7b50b566247377c224b">MainWindow::on_pushButtonMatriz_clicked</a></div><div class="ttdeci">void on_pushButtonMatriz_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:45</div></div>
+<div class="ttc" id="aclass_main_window_html_aa01130f1caebf441341fc684751edde3"><div class="ttname"><a href="class_main_window.html#aa01130f1caebf441341fc684751edde3">MainWindow::on_pushButtonCutSphere_clicked</a></div><div class="ttdeci">void on_pushButtonCutSphere_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:99</div></div>
+<div class="ttc" id="aclass_main_window_html_af0a22beaff62076aee5318c8f7d02227"><div class="ttname"><a href="class_main_window.html#af0a22beaff62076aee5318c8f7d02227">MainWindow::on_pushButtonPutBox_clicked</a></div><div class="ttdeci">void on_pushButtonPutBox_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:68</div></div>
+<div class="ttc" id="aclass_main_window_html"><div class="ttname"><a href="class_main_window.html">MainWindow</a></div><div class="ttdef"><b>Definition:</b> mainwindow.h:10</div></div>
+<div class="ttc" id="aclass_main_window_html_a996c5a2b6f77944776856f08ec30858d"><div class="ttname"><a href="class_main_window.html#a996c5a2b6f77944776856f08ec30858d">MainWindow::MainWindow</a></div><div class="ttdeci">MainWindow(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:7</div></div>
+<div class="ttc" id="aclass_main_window_html_ae98d00a93bc118200eeef9f9bba1dba7"><div class="ttname"><a href="class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7">MainWindow::~MainWindow</a></div><div class="ttdeci">~MainWindow()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:35</div></div>
+<div class="ttc" id="aclass_main_window_html_a3e8a11f9f62cf1daa11e5e129c45c7b3"><div class="ttname"><a href="class_main_window.html#a3e8a11f9f62cf1daa11e5e129c45c7b3">MainWindow::on_pushButtonCutEllipsoid_clicked</a></div><div class="ttdeci">void on_pushButtonCutEllipsoid_clicked()</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:119</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>
